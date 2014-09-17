@@ -5,14 +5,14 @@
 # Copyright (C) 2001-2012, Parrot Foundation.
 
 # Setup of some commands
-PERL    = /usr/local/bin/perl
+PERL    = /opt/local/bin/perl5.18
 CHMOD   = $(PERL) -MExtUtils::Command -e chmod
 MKPATH  = $(PERL) -MExtUtils::Command -e mkpath
 TOUCH   = $(PERL) -MExtUtils::Command -e touch
 RM_F    = $(PERL) -MExtUtils::Command -e rm_f
 RM_RF   = $(PERL) -MExtUtils::Command -e rm_rf
-PERLDOC = /usr/local/bin/perldoc
-POD2MAN = /usr/local/bin/pod2man
+PERLDOC = /opt/local/bin/perldoc
+POD2MAN = /opt/local/bin/pod2man
 VERSION = 6.7.0
 PODEXTRACT   = $(PERL) ../tools/build/podextract.pl
 ADDGENERATED = $(PERL) ../tools/build/addgenerated.pl
